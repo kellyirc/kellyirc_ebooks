@@ -4,7 +4,7 @@
 `rm -r model corpus`
 `mkdir model corpus`
 
-KELLYIRC_USERS = ["rahatarmanahmed", "rayyukay", "seiyria", "spookyco"]
+KELLYIRC_USERS = ["rahatarmanahmed", "rayyukay", "seiyria", "spookyco", "darkbuizel"]
 
 KELLYIRC_USERS.each do |user|
     `ebooks archive #{user} corpus/#{user}.json`
